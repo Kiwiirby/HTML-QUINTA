@@ -1,5 +1,5 @@
 /* Importação Google fonts*/
-/* font-family: "Quicksand", sans-serif; e font-family: "Afacad Flux", sans-serif; */
+/* só pra ficar facil de copiar font-family: "Quicksand", sans-serif; e font-family: "Afacad Flux", sans-serif; */
 
 @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
@@ -56,7 +56,7 @@
 
 
 
-/* Menu iterativo*/
+
 
 nav ul {
     list-style: none;
@@ -168,7 +168,7 @@ body {
 }
 
 #link h3 {
-    
+    text-align: 
     margin-top: 20px; 
     font-family: "Afacad Flux", sans-serif; 
     font-size: 24px; 
@@ -215,13 +215,13 @@ header {
     font-family: "Afacad Flux", sans-serif;
 }
 
-/* Define o estilo do título */
+
 h1 {
     color: #333;
     text-align: center;
 }
 
-/* Estiliza o parágrafo */
+
 p {
     color: #555;
     font-size: 18px;
