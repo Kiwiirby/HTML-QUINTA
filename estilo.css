@@ -1,8 +1,218 @@
+/* Importação Google fonts*/
+/* font-family: "Quicksand", sans-serif; e font-family: "Afacad Flux", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+/* Tamanho do Logo da imagem*/
+
+#logo img {
+    width: 128px;
+    height: 128px;
+    margin-top: 1px;
+}   
+
+.imagem-quem-somos {
+    width: 1200px;
+    height: 700px;
+}
+
+.imagem-fundadores {
+    width: 1200px;
+    height: 700px;
+}
+/*Gato da segunda foto*/
+
+.gato-inteiro {
+    float: right; 
+    margin-left: 10px; 
+}
+
+.investidores {
+    float: left; 
+    margin-right: 10px;
+    height: 270px;
+}
+
+/* Colocando o texto do lado do logo*/
+
+#logo {
+    display: flex;
+    align-items: center; 
+}
+
+#logo h1 {
+    margin: 0;
+    padding-left: 10px; 
+    font-size: 1.5em;
+    color: #000000;
+}
+
+
+
+/* Menu iterativo*/
+
+nav ul {
+    list-style: none;
+    position: static;
+    height: auto;
+    background-color: transparent;
+    margin-top: 50px;
+}
+
+nav ul li {
+    float: left;
+    border: 0;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+
+nav ul li a:hover {
+    color:#fffcfc;
+}
+
 body {
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
+    background-color: #fffcfc;
     margin: 0;
     padding: 0;
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 1em;
+}
+
+#sobre h2 {
+    text-align: center;
+    font-family: "Afacad Flux", sans-serif;
+    color: #fed731;
+}
+#sobre h3 {
+    text-align: justify;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-indent: 20px;
+}
+
+#sobre p {
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    color: #000000;
+}
+
+#conteudo h2 {
+    text-align: center;
+    font-family: "Afacad Flux", sans-serif;
+    color: #fed731;
+}
+
+
+#conteudo h3 {
+    text-align: justify;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#conteudo h3 p {
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    color: #000000;
+}
+
+#link h2 {
+    
+    font-family: "Afacad Flux", sans-serif;
+}
+
+#link a {
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+    font-family: "Quicksand", sans-serif;
+
+}
+
+#link a:hover {
+    color:#fffcfc;
+}
+
+.flex-container {
+    display: flex;                  
+    align-items: flex-start;         
+    gap: 20px;                       
+}
+
+#links {
+    flex: 1;                         
+}
+
+#social {
+    display: flex;
+    flex-direction: column;          
+    gap: 20px;                       
+}
+
+#social img {
+    width: 90px;                     
+    height: 90px;
+}
+
+#link h3 {
+    
+    margin-top: 20px; 
+    font-family: "Afacad Flux", sans-serif; 
+    font-size: 24px; 
+    color: #000000; 
+}
+
+
+
+.gatinhoLink {
+    height: 90px;
+    width: 90px;
+}
+
+.twitter {
+    height: 90px;
+    width: 90px;
+}
+
+.linkedin {
+    height: 90px;
+    width: 90px;
+}
+
+.Container{
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+#inicio {
+    background-color: #fed731;
+}
+
+#link {
+    background-color: #fed731;
+}
+
+.Flex {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header {
+    font-family: "Afacad Flux", sans-serif;
 }
 
 /* Define o estilo do título */
@@ -17,4 +227,10 @@ p {
     font-size: 18px;
     line-height: 1.6;
     text-align: justify;
+}
+
+#topo {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
 }
